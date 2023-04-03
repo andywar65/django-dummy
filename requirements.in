@@ -1,0 +1,7 @@
+django>=4.2,<5.0
+environs[django]
+django-htmx
+django-bootstrap-v5
+django-debug-toolbar
+factory_boy
+coverage
