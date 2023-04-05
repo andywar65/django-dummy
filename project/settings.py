@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     "bootstrap5",
     "django_htmx",
     "debug_toolbar",
+    # local
+    "utils.apps.UtilsConfig",
 ]
 
 MIDDLEWARE = [
