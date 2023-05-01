@@ -12,6 +12,8 @@ name = "django-dummy"
 version = "0.1.0"
 description = "Barebone Django instance"
 authors = ["andywar65 <andy.war1965@gmail.com>"]
+readme = "README.md"
+packages = [{include = "project"}, {include = "utils"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
